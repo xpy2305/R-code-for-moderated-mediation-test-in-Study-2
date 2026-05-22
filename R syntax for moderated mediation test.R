@@ -1,4 +1,4 @@
-#1.	Leader empathy x follower workplace anxiety signaling  leader victim-supporting norm violation  follower perceived acceptability of norm violation
+#1.	Leader empathy x follower workplace anxiety signaling on follower perceived acceptability of norm violation via leader victim-supporting norm violation 
 
 #moderated mediation
 require(MASS)
@@ -31,7 +31,7 @@ UL4=format(UL,digits=4)
 hist(MoMe,breaks='FD',col='skyblue',xlab=paste(conf,'% Confidence Interval ','LL',LL4,'  UL',UL4),
      main='Distribution of Indirect Effect')
 
-#high & low
+#high & low level of moderator
 require(MASS)
 a=0.10 # a path
 b=0.39 # b path
@@ -63,7 +63,7 @@ UL4=format(UL,digits=4)
 hist(MoMeH,breaks='FD',col='skyblue',xlab=paste(conf,'% Confidence Interval ','LL',LL4,'  UL',UL4),
      main='Distribution of Indirect Effect')
 
-#d
+#difference between high and low levels
 require(MASS)
 a=0.10 # a path
 b=0.39 # b path
@@ -98,7 +98,7 @@ UL4=format(UL,digits=4)
 hist(d,breaks='FD',col='skyblue',xlab=paste(conf,'% Confidence Interval ','LL',LL4,'  UL',UL4),
      main='Distribution of Indirect Effect')
 
-#2.	Leader empathy x follower workplace anxiety signaling  leader norm-violating behaviorfollower perceived acceptability of norm violation  deviance
+#2.	Leader empathy x follower workplace anxiety signaling on observers' deviance via leader norm-violating behavior and observers' perceived acceptability of norm violation
 #moderated mediation
 require(MASS)
 a=0.10 # a path
@@ -136,7 +136,7 @@ UL4=format(UL,digits=4)
 hist(MoMe,breaks='FD',col='skyblue',xlab=paste(conf,'% Confidence Interval ','LL',LL4,'  UL',UL4),
      main='Distribution of Indirect Effect')
 
-#high & low
+#high & low level of the moderator 
 require(MASS)
 a=0.10 # a path
 b=0.39 # b path
@@ -174,7 +174,7 @@ UL4=format(UL,digits=4)
 hist(MoMeH,breaks='FD',col='skyblue',xlab=paste(conf,'% Confidence Interval ','LL',LL4,'  UL',UL4),
      main='Distribution of Indirect Effect')
 
-#d
+#difference between high and low levels
 require(MASS)
 a=0.10 # a path
 b=0.39 # b path
